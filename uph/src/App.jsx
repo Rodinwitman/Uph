@@ -1,13 +1,20 @@
-import './App.css'
+import { Outlet } from 'react-router-dom';
+import Footer from "./component/Footer/Footer";
+import Navbar from "./component/Navbar/Navbar";
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold text-blue-500">
-      Tailwind fonctionne ! 🎉
-    </h1>
-    <p className='text-8xl'>test</p>
+      <div>
+        <Navbar />
+        <div>
+          <Outlet />
+        </div>
+        <footer>
+          <Footer />
+        </footer>
+      </div>
     </>
   )
 }
