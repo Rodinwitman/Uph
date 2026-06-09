@@ -1,6 +1,6 @@
 
 export const Home = () => {
   return (
-    <div>home</div>
+    <div className="text-6xl">home</div>
   )
 }
