@@ -1,17 +1,17 @@
 import { Outlet } from 'react-router-dom';
-import Footer from "./component/Footer/Footer";
-import Navbar from "./component/Navbar/Navbar";
+import {Footer} from "./component/Footer/Footer";
+import {Navbar} from "./component/Navbar/Navbar";
 
 function App() {
 
   return (
     <>
-      <div>
+      <div className='overflow-x-hidden min-h-screen flex flex-col'>
         <Navbar />
-        <div>
+        <div className='grow'>
           <Outlet />
         </div>
-        <footer>
+        <footer className='mt-auto'>
           <Footer />
         </footer>
       </div>
