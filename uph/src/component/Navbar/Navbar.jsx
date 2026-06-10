@@ -1,6 +1,8 @@
 
 export const Navbar = () => {
   return (
-    <div className="text-6xl">Navbar</div>
+    <>
+      <div className="text-6xl">Navbar</div>
+    </>
   )
 }
