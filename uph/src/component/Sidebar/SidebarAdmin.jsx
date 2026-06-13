@@ -24,7 +24,7 @@ const navigationItems = [
   { icon: Briefcase, label: "Gestion enseignants", path: "/admin/enseignants" },
   { icon: BookOpen, label: "Gestion filières", path: "/admin/filieres" },
   { icon: BookOpen, label: "Gestion cours", path: "/admin/cours" },
-  { icon: Clock, label: "Emplois du temps", path: "/admin/emplois-du-temps" },
+  { icon: Clock, label: "Emplois du temps", path: "/admin/emplois-du-tempss" },
   { icon: FileText, label: "Inscriptions", path: "/admin/inscriptions" },
   { icon: Bell, label: "Annonces", path: "/admin/annonces" },
   { icon: BarChart3, label: "Rapports & statistiques", path: "/admin/rapports" },
