@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className='overflow-x-hidden min-h-screen flex flex-col'>
-        {/* <Navbar /> */}
+        <Navbar />
         <div className='grow'>
           <Outlet />
         </div>
