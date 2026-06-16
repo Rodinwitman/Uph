@@ -50,7 +50,7 @@ export const SidebarAdmin = () => {
       <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-1">
 
         <p className="px-3 py-2 text-xs text-gray-500 uppercase">
-          Menu principal
+          Menu principall
         </p>
         {/* modification dynamique en haut  */}
         {navigationItems.map((item) => {

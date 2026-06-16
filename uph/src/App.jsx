@@ -12,7 +12,7 @@ function App() {
           <Outlet />
         </div>
         <footer className='mt-auto'>
-          <Footer />
+          {/* <Footer /> */}
         </footer>
       </div>
     </>
