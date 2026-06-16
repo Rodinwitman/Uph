@@ -6,7 +6,7 @@ export const Navbar = () => {
       <div className="text-6xl">Navbar</div>
 
       <Link
-        to="/DashboardAdmin"
+        to="/admin"
         className="text-blue-500 underline text-xl"
       >
         Admin
