@@ -4,6 +4,8 @@ import {Home} from "../pages/Home/Home";
 import {About} from "../pages/Home/About";
 import {Contact} from "../pages/Home/Contact";
 import { adminRoutes } from "./admin/adminRoutes";
+import { enseignantRoutes } from "./Enseignant/enseignantRoutes";
+import { EtudiantRoutes } from "./Etudiant/EtudiantRoutes";
 
 export const router = createBrowserRouter([
     {
@@ -24,7 +26,10 @@ export const router = createBrowserRouter([
             },
             
             // on separe les routes pour chaque roles
-            ...adminRoutes
+            ...adminRoutes,
+            ...enseignantRoutes,
+            ...EtudiantRoutes
+            
         ]
     }
 

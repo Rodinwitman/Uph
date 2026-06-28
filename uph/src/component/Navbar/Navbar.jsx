@@ -11,6 +11,20 @@ export const Navbar = () => {
       >
         Admin
       </Link>
+      <br />
+      <Link 
+        to="/Enseignant"
+        className="text-blue-500 underline text-xl"
+      >
+        Enseignant
+      </Link>
+      <br />
+      <Link 
+        to="/Etudiant"
+        className="text-blue-500 underline text-xl"
+      >
+        Etudiant
+      </Link>
     </div>
   );
 };
